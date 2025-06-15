@@ -1,0 +1,80 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-pink {
+  color: #ff3399;
+}
+
+.bg-pink {
+  background-color: #ff3399 !important;
+}
+
+.header-section {
+  background-color: #ff3399;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-bottom: 1rem;
+}
+
+.user-img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.balance-card {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: conic-gradient(#ff3399 80%, #e0e0e0 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #ff3399;
+}
+.progress-ring {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: conic-gradient(#ff3399 0% 80%, #f2f2f2 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.progress-ring-inner {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #222;
+}
